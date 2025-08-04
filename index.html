@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>FinancesKids</title>
+  
+  <link rel="manifest" href="manifest.json">
+  
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="alternate icon" href="favicon.svg">
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="FinancesKids">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="apple-touch-startup-image" href="icon.svg">
+  
+  <meta name="theme-color" content="#10b981" />
+  <meta name="description" content="App para crianças controlarem dinheiro de forma divertida e educativa com Firebase." />
+  <meta name="keywords" content="educação financeira, crianças, mesada, dinheiro, finanças, kids">
+  <meta name="author" content="FinancesKids">
+  
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body class="bg-green-50 min-h-screen flex flex-col">
+  <main id="app" class="flex-1 flex flex-col items-center justify-center p-4">
+    <div class="text-center">Inicializando FinancesKids...</div>
+  </main>
+  
+  <footer class="text-center text-xs text-gray-400 py-2">
+    Feito com <span class="text-pink-500">❤</span> para crianças e famílias | FinancesKids
+  </footer>
+
+  <script defer src="sw-register.js"></script>
+  
+  <script type="module" src="config/firebase-config.js"></script>
+  
+  <script src="firebase-app.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
